@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .nav{
+            background-color: blueviolet;
+            border: 2px solid blueviolet;
+            padding: 5px;
+            padding-left:20px ;
+        }
+        .logo{
+            display: inline;
+            height: 20px;
+            width: 100px;
+            
+        }
+        .home{
+            display: inline;
+            height: 20px;
+            width: 100px;
+            text-align: center;
+            margin-left: 50px;
+            margin: 20px;
+
+        }
+        .search{
+            display: inline;
+            padding: 1px;
+            text-align: right;
+            right: 1px;
+        }
+        .setText{
+            background-color: blueviolet;
+            text-align: center;
+            /* height: 200px; */
+            width: 500px;
+            padding: 10px;
+            border: 2px solid black;
+            border-radius: 5px;
+            margin: auto;
+            margin-top: 10px;
+        }
+        #text{
+            border: 2px dashed red;
+            border-radius: 7px;
+            width: 400px;
+            height:200px ;
+        }
+        #add{
+            border-radius: 10px;
+            display: block;
+            margin:auto;
+            margin-top: 10px;
+            width: 100px;
+        }
+        #note{
+            border: 2px solid  brown;
+            background-color: white;
+            margin: auto;
+            padding: 2px;
+            border-radius: 7px;
+            width: 400px;
+            height:200px ;
+        }
+        .delet{
+            border-radius: 10px;
+            display: block;
+            margin:auto;
+            margin-top: 10px;
+            width: 100px;
+        }
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="nav">
+        <div class="logo">Magic Nots</div>
+        <div class="home">Home</div>
+        <div class="search"><input id="searchTxt" type="text"><button>search</button></div>
+
+        </div>
+    </div>
+    <div class="setText">
+        <h1>Enter Text</h1>
+        <textarea name="text" id="text" cols="30" rows="10"></textarea>
+        <button id="add">add</button>
+    </div>
+    <div id="notes">
+       
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
